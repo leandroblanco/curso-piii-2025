@@ -15,9 +15,6 @@ Este proyecto muestra cómo cuantificar una señal analógica utilizando un conv
 - **Paso de cuantificación**: 1V
 - **Señal de entrada**: `4 * sin(2π * 5t) + 4`
 
-## 📁 Archivos
-
-- `main.py`: Código fuente con la lógica de generación y cuantificación.
 
 ## 🧪 Aplicaciones
 
@@ -73,3 +70,5 @@ plt.tight_layout()
 plt.show()
 
 
+La imagen se verifica en ña carpeta:
+figure: images/señal_analogica_vs_señal_cuantificada
