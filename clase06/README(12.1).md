@@ -43,8 +43,11 @@ Y vuelve a ejecutar las líneas que generan `m_t`, `y_t` y los gráficos.
 ## Observaciones
 
 - **Índice de modulación < 1**: la envolvente es clara y sigue la forma de la señal de mensaje.
+                               "\images\Am_menor_1.png"
 - **Índice de modulación = 1**: se alcanza el límite de modulación sin distorsión.
+                               "\images\Am_igual_1.png"
 - **Índice de modulación > 1**: aparece sobremodulación, donde la envolvente se distorsiona y puede cruzar el eje cero, dificultando la demodulación.
+                                "\images\Am_mayor_1.png"
 
 ---
 

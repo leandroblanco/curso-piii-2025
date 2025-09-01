@@ -1,0 +1,40 @@
+
+# Análisis del Código: ejercicio13clase07.py
+
+## Tema Principal
+El código trata sobre el procesamiento de señales mediante filtros de media móvil, específicamente:
+- Filtro de Media Móvil Simple (SMA)
+- Filtro de Media Móvil Exponencial (EMA)
+
+Estos filtros se utilizan para suavizar señales ruidosas, actuando como filtros pasabajos.
+
+## Implementación
+
+### Filtro SMA
+Se implementa usando una ecuación en diferencias:
+    y[n] = y[n-1] + (1 / W) * (x[n] - x[n-W])
+Donde `W` es el tamaño de la ventana. Este filtro promedia las últimas `W` muestras y atenúa las variaciones rápidas.
+
+### Filtro EMA
+Se implementa con la fórmula:
+    y[n] = alpha * x[n] + (1 - alpha) * y[n-1]
+Donde `alpha` es el factor de suavizado. Da más peso a las muestras recientes, lo que permite una respuesta más rápida a cambios.
+
+## Comparación
+
+### Dominio del Tiempo
+- **SMA**: Suaviza eficazmente pero introduce retardo proporcional al tamaño de la ventana.
+- **EMA**: Suaviza con retardo adaptativo. Responde más rápido a cambios bruscos.
+
+### Dominio de la Frecuencia
+- Ambos filtros atenúan frecuencias altas.
+- **SMA**: Tiene una respuesta tipo sinc con muescas.
+- **EMA**: Atenuación más suave y gradual.
+
+## Visualización
+Se grafican las señales originales y filtradas para observar el efecto de suavizado. También se analiza el espectro de frecuencias mediante FFT.
+
+## Conclusiones
+- Ambos filtros son útiles para suavizar señales.
+- La elección depende del nivel de suavizado deseado, retardo aceptable y características de la señal.
+- EMA es más sensible a cambios recientes, SMA es más estable pero con mayor retardo.
