@@ -1,0 +1,17 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP30F4013 -DL -SSA -O11111114 -fo10 -N"C:\Cosas\P III\Codigos\curso-piii-2025\DSPIC\primer_intento.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"C:\Cosas\P III\Codigos\curso-piii-2025\DSPIC\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"C:\Cosas\P III\Codigos\curso-piii-2025\DSPIC\" "primer_intento.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	primer_intento.c
+error: 18	324	Undeclared identifier 'uint8_t' in expression	primer_intento.c
+error: 18	402	; expected, but 'i' found	primer_intento.c
+error: 18	315	Invalid expression	primer_intento.c
+error: 18	324	Undeclared identifier 'i' in expression	primer_intento.c
+error: 18	425	')' expected, but ';' found	primer_intento.c
+error: 18	324	Undeclared identifier 'i' in expression	primer_intento.c
+error: 18	402	; expected, but ')' found	primer_intento.c
+error: 19	424	'}' expected ';' found	primer_intento.c
+error: 21	424	'}' expected '}' found	primer_intento.c
+error: 28	371	Specifier needed	primer_intento.c
+error: 28	396	Invalid declarator expected'(' or identifier	primer_intento.c
+error: 28	402	; expected, but '}' found	primer_intento.c
+error: 28	312	Internal error ''	primer_intento.c
+error: 0	102	Finished (with errors): 08 oct. 2025, 19:52:41	primer_intento.mcpds
